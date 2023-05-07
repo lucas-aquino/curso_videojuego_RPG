@@ -19,13 +19,13 @@ public class LoadingScreenUI : MonoBehaviour
 
     public void ToggleScreen(bool enable)
     {
-        if (!enable)
+        if (enable)
         {
-            this._animator.SetTrigger("Hide");
+            this._animator.SetTrigger("Show");
         }
         else
         {
-            this._animator.SetTrigger("Show");
+            this._animator.SetTrigger("Hide");
         }
 
     }

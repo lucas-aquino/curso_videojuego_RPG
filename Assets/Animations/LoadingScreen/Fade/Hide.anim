@@ -113,4 +113,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.98333335
+    functionName: SendLoadingScreenHiddenEvent
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 016f3b34c01ffa641994ea362f8d40ec, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

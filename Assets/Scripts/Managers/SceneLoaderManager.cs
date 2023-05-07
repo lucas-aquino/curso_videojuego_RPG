@@ -20,6 +20,11 @@ public class SceneLoaderManager : MonoBehaviour
         }
     }
 
+    public LoadingScreenUI GetLoadingScreen()
+    {
+        return loadingScreen;
+    }
+
     public void OnLoadLevelRequest(LoadSceneRequest req)
     {
         if (!IsSceneAlreadyLoaded(req.scene))
@@ -61,7 +66,7 @@ public class SceneLoaderManager : MonoBehaviour
             ActivateLevel(req);
         }
     }
-
+        
     private void ActivateLevel(LoadSceneRequest req)
     {
         Scene loadedLevel = SceneManager.GetSceneByName(req.scene.name);
@@ -70,7 +75,6 @@ public class SceneLoaderManager : MonoBehaviour
         if (req.loadingScreen)
         {
             this.loadingScreen.ToggleScreen(false);
-
         }
         this._pendingRequest = null;
     }
