@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f85dea27dcd5b946b468d2c885af1dd, type: 3}
   m_Name: Managers
   m_EditorClassIdentifier: 
-  sceneName: Managers
+  _sceneName: Managers

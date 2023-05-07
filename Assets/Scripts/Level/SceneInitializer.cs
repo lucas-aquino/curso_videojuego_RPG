@@ -21,9 +21,9 @@ public class SceneInitializer : MonoBehaviour
     {
         foreach (SceneSO sceneToLoad in this.sceneDependencies)
         {
-            if (!SceneManager.GetSceneByName(sceneToLoad.name).isLoaded)
+            if (!SceneManager.GetSceneByName(sceneToLoad.SceneName).isLoaded)
             {
-                AsyncOperation loadOperation = SceneManager.LoadSceneAsync(sceneToLoad.name, LoadSceneMode.Additive);
+                AsyncOperation loadOperation = SceneManager.LoadSceneAsync(sceneToLoad.SceneName, LoadSceneMode.Additive);
 
                 while (!loadOperation.isDone)
                 {

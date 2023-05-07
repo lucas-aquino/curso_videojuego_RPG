@@ -4,5 +4,7 @@ using UnityEngine;
 public class SceneSO : ScriptableObject
 {
     [Header("Scene Information")]
-    [SerializeField] private string sceneName;
+    [SerializeField] private string _sceneName;
+
+    public string SceneName { get { return this._sceneName; } }
 }

@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eff114db7c8041a4bb6a2a077aa82f2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 9136217975950904529}
+  _spriteRenderer: {fileID: 9136217975950904529}
 --- !u!114 &9136217975743404714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,8 +237,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f63cf0fc6f8a71c41a70e88cd309e78b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  rigidbody: {fileID: 9136217975743404712}
+  _speed: 5
+  _rigidbody: {fileID: 9136217975743404712}
 --- !u!1 &9136217975950904531
 GameObject:
   m_ObjectHideFlags: 0

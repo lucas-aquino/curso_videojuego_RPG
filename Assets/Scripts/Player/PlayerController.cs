@@ -4,17 +4,18 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [Header("Configuration")]
-    [SerializeField] private float speed;
+    [SerializeField] private float _speed;
 
     [Header("Dependencies")]
-    [SerializeField] private Rigidbody2D rigidbody;
+    [SerializeField] private Rigidbody2D _rigidbody;
 
+    public Rigidbody2D Rigidbody { get { return _rigidbody; } }
 
     private Vector2 _movementInput;
 
     private void FixedUpdate()
     {
-        rigidbody.velocity = _movementInput * speed;
+        this._rigidbody.velocity = _movementInput * _speed;
     }
 
     public void OnMovement(InputAction.CallbackContext callbackContext)

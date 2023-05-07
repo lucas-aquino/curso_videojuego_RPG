@@ -14,13 +14,13 @@ public class PlayerSpawner : MonoBehaviour
     public void IntantiatePlayerOnLevel()
     {
         GameObject player = this.GetPlayer();
-        Transform entrance = this.GetLevelEntrance(playerPath.levelEntrance);
+        Transform entrance = this.GetLevelEntrance(playerPath.LevelEntrance);
 
         player.transform.position = entrance.transform.position;
         player.transform.parent = playerParent.transform;
         this.followCamera.Follow = player.transform;
 
-        playerPath.levelEntrance = null;
+        playerPath.LevelEntrance = null;
     }
 
     private GameObject GetPlayer()
@@ -46,7 +46,7 @@ public class PlayerSpawner : MonoBehaviour
 
         foreach (LevelEntrance levelEntrance in levelEntrances)
         {
-            if (levelEntrance.entrance == playerEntrance)
+            if (levelEntrance.Entrance == playerEntrance)
             {
                 return levelEntrance.gameObject.transform;
             }

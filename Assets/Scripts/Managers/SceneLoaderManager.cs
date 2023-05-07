@@ -16,7 +16,7 @@ public class SceneLoaderManager : MonoBehaviour
     {
         if (!IsSceneAlreadyLoaded(req.scene))
         {
-            SceneManager.LoadScene(req.scene.name);
+            SceneManager.LoadScene(req.scene.SceneName);
         }
     }
 
@@ -56,7 +56,7 @@ public class SceneLoaderManager : MonoBehaviour
             Scene currentLoadedLevel = SceneManager.GetActiveScene();
             SceneManager.UnloadSceneAsync(currentLoadedLevel);
 
-            AsyncOperation loadSceneProcess = SceneManager.LoadSceneAsync(req.scene.name, LoadSceneMode.Additive);
+            AsyncOperation loadSceneProcess = SceneManager.LoadSceneAsync(req.scene.SceneName, LoadSceneMode.Additive);
 
             while (!loadSceneProcess.isDone)
             {
@@ -69,7 +69,7 @@ public class SceneLoaderManager : MonoBehaviour
         
     private void ActivateLevel(LoadSceneRequest req)
     {
-        Scene loadedLevel = SceneManager.GetSceneByName(req.scene.name);
+        Scene loadedLevel = SceneManager.GetSceneByName(req.scene.SceneName);
         SceneManager.SetActiveScene(loadedLevel);
 
         if (req.loadingScreen)
@@ -81,7 +81,7 @@ public class SceneLoaderManager : MonoBehaviour
 
     private bool IsSceneAlreadyLoaded(SceneSO scene)
     {
-        Scene loadedScene = SceneManager.GetSceneByName(scene.name);
+        Scene loadedScene = SceneManager.GetSceneByName(scene.SceneName);
         return loadedScene != null && loadedScene.isLoaded;
     }
 }
