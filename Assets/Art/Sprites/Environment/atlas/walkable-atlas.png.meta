@@ -222,7 +222,7 @@ TextureImporter:
       213: 2924994247923469754
     second: walkable-atlas_72
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -243,6 +243,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -281,6 +282,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -320,6 +322,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1896,6 +1922,80 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      walkable-atlas_1: 883473691198831953
+      walkable-atlas_59: 4615956339469365495
+      walkable-atlas_38: -6078067975330936634
+      walkable-atlas_48: -3298045648328501722
+      walkable-atlas_16: -2148694055812167310
+      walkable-atlas_9: 2025822298766033166
+      walkable-atlas_58: 5720469069234064376
+      walkable-atlas_2: -203251546883708495
+      walkable-atlas_20: 2232489095506647308
+      walkable-atlas_24: -3031801474441947568
+      walkable-atlas_66: -3470095728918817231
+      walkable-atlas_72: 2924994247923469754
+      walkable-atlas_0: 8845575899657059568
+      walkable-atlas_25: 5982018635742205042
+      walkable-atlas_63: -1042690618306731413
+      walkable-atlas_64: 8830106492321198036
+      walkable-atlas_6: 116610836230420411
+      walkable-atlas_67: 9109177974413494712
+      walkable-atlas_21: 1325243254254913169
+      walkable-atlas_28: 5893903124948664283
+      walkable-atlas_60: -2958649423018234019
+      walkable-atlas_17: -6712064431578399489
+      walkable-atlas_26: 4881185274545962832
+      walkable-atlas_50: -7062175335868211943
+      walkable-atlas_39: 1581653241050150038
+      walkable-atlas_37: 3337110039434649322
+      walkable-atlas_53: -52532803310344205
+      walkable-atlas_10: -1995385602010126564
+      walkable-atlas_52: -5360429204368529421
+      walkable-atlas_36: 3390451627690854242
+      walkable-atlas_40: -8850973872203168285
+      walkable-atlas_19: 5456151992776776437
+      walkable-atlas_57: 8086537437613576667
+      walkable-atlas_31: -5271587579618779644
+      walkable-atlas_22: 599286406920928944
+      walkable-atlas_30: -6247621597262863949
+      walkable-atlas_32: -386224639385608523
+      walkable-atlas_47: -6669461520367780775
+      walkable-atlas_5: -3258638994770957962
+      walkable-atlas_69: -1118000807739312978
+      walkable-atlas_35: 4920797936332907103
+      walkable-atlas_4: -6671005052511130467
+      walkable-atlas_23: -8660100157716223266
+      walkable-atlas_11: 9067721375741545204
+      walkable-atlas_14: 2951916292279589617
+      walkable-atlas_7: -2266367182621437692
+      walkable-atlas_43: -8498181873288659611
+      walkable-atlas_68: -3909375515833372193
+      walkable-atlas_65: -7298241224515258755
+      walkable-atlas_41: -885370506711797344
+      walkable-atlas_71: 6071880019086495608
+      walkable-atlas_51: -7522637776357869968
+      walkable-atlas_61: -3516475912052155661
+      walkable-atlas_33: -8263358303287429441
+      walkable-atlas_15: 7861149531324423558
+      walkable-atlas_18: -5498171947716648485
+      walkable-atlas_70: -3176191958584543495
+      walkable-atlas_13: -1806764334697320229
+      walkable-atlas_3: -4324728190474813614
+      walkable-atlas_49: 4713299077073153569
+      walkable-atlas_55: 5401613754246331097
+      walkable-atlas_62: -8169701005156148360
+      walkable-atlas_27: -7423025966354624471
+      walkable-atlas_12: 7078840617594348961
+      walkable-atlas_42: -1192763061008369272
+      walkable-atlas_8: -4353717909940962899
+      walkable-atlas_34: -1006198955200470051
+      walkable-atlas_46: 3300704174104297239
+      walkable-atlas_45: -3411691976482588610
+      walkable-atlas_54: 2012933489780270691
+      walkable-atlas_56: -4634991250158814635
+      walkable-atlas_29: 8329961135847106372
+      walkable-atlas_44: -4647807290131353649
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
