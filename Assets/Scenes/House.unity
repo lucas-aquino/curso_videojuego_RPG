@@ -180,12 +180,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7355539038546709542, guid: 2b7345db4ed0cad4b9d4027471b79bd8, type: 3}
       propertyPath: sceneDependencies.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7355539038546709542, guid: 2b7345db4ed0cad4b9d4027471b79bd8, type: 3}
       propertyPath: sceneDependencies.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 448c046c0f4f0194c80cd07d863f8c1a, type: 2}
+    - target: {fileID: 7355539038546709542, guid: 2b7345db4ed0cad4b9d4027471b79bd8, type: 3}
+      propertyPath: sceneDependencies.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7ea21e964c9c2634696aa2beb3365b2a, type: 2}
     - target: {fileID: 7355539038546709542, guid: 2b7345db4ed0cad4b9d4027471b79bd8, type: 3}
       propertyPath: onDependenciesLoaded.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: IntantiatePlayerOnLevel
@@ -2012,7 +2016,7 @@ GameObject:
   - component: {fileID: 717053454}
   - component: {fileID: 717053453}
   - component: {fileID: 717053452}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ExitToExterior
   m_TagString: Untagged
   m_Icon: {fileID: 0}

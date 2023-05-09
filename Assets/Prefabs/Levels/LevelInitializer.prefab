@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6186941692673869419}
   m_Father: {fileID: 0}
@@ -45,7 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fc9d5a6bc2feaf4aae31a20b41aea9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDependencies: []
+  sceneDependencies:
+  - {fileID: 11400000, guid: 448c046c0f4f0194c80cd07d863f8c1a, type: 2}
+  - {fileID: 11400000, guid: 7ea21e964c9c2634696aa2beb3365b2a, type: 2}
   onDependenciesLoaded:
     m_PersistentCalls:
       m_Calls:
@@ -103,6 +106,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7355539038546709529}
   m_RootOrder: 0
