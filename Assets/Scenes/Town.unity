@@ -1625,7 +1625,7 @@ GameObject:
   - component: {fileID: 304007755}
   m_Layer: 5
   m_Name: Knob
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28711,7 +28711,7 @@ GameObject:
   - component: {fileID: 936605596}
   m_Layer: 5
   m_Name: Joystick
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33829,7 +33829,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &1829441847
 RectTransform:

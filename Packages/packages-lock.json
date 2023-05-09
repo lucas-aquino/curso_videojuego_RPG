@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.unity.2d.animation": {
-      "version": "7.0.9",
+      "version": "7.0.10",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -39,12 +39,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.psdimporter": {
-      "version": "6.0.6",
+      "version": "6.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.2d.animation": "7.0.8",
-        "com.unity.2d.common": "6.0.5",
+        "com.unity.2d.animation": "7.0.9",
+        "com.unity.2d.common": "6.0.6",
         "com.unity.2d.sprite": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -56,12 +56,12 @@
       "dependencies": {}
     },
     "com.unity.2d.spriteshape": {
-      "version": "7.0.6",
+      "version": "7.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.1.0",
-        "com.unity.2d.common": "6.0.4",
+        "com.unity.2d.common": "6.0.6",
         "com.unity.2d.path": "5.0.2",
         "com.unity.modules.physics2d": "1.0.0"
       },
@@ -108,7 +108,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.16",
+      "version": "3.0.21",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -187,7 +187,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.6.4",
+      "version": "1.6.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {

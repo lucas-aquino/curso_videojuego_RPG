@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa3f8d05185e5047860aeef9f8b6c8f, type: 3}
+  m_Name: MainMenuRandomPhrases
+  m_EditorClassIdentifier: 
+  _phraseList:
+  - "\"Bienvenido al mundo de clich\xE9s y estereotipos, donde todo es predecible
+    y trillado.\""
+  - "\"Aqu\xED encontrar\xE1s todo lo que necesitas para ser el h\xE9roe m\xE1s gen\xE9rico
+    de todos los tiempos: espadas, hechizos y autoestima.\""
+  - "\"Nuestros enemigos son tan obvios que podr\xEDas vencerlos con los ojos cerrados.\""
+  - '"Los NPCs son tan interesantes como una pared blanca."'
+  - "\"Si\xE9ntete libre de explorar el mundo, pero no te sorprendas si encuentras
+    una copia exacta de ti mismo en cada ciudad. \xA1El clonaje est\xE1 de moda!\""
+  - "\"En nuestro mundo, todas las misiones te llevan a la inevitable victoria del
+    bien sobre el mal. \xA1Qu\xE9 original!\""
+  - "\"Aqu\xED podr\xE1s hacer amigos y enemigos, pero ten cuidado: los amigos se
+    convierten en enemigos si la trama lo requiere.\""
+  - "\"Nuestros di\xE1logos son tan clich\xE9s que podr\xEDas adivinar la trama completa
+    en la primera hora de juego.\""

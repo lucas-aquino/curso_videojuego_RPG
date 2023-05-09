@@ -9,9 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Managers.unity
     guid: 6a2f4e2ff669a3b44a0f7d327c6272c0
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: f39e3e855df941a4e879c35eb2a02b41
+  - enabled: 1
     path: Assets/Scenes/Town.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/House.unity
     guid: fa8d31586ae81cc4eb499afe97f69122
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: b0bd542644d0f7e4fa717db6c31ab6e9, type: 2}
