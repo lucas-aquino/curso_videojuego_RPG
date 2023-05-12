@@ -36971,6 +36971,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2953572740558461572, guid: 0bad7d8eebe02d0458a8797c5007c86c, type: 3}
+      propertyPath: onDependenciesLoaded.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953572740558461572, guid: 0bad7d8eebe02d0458a8797c5007c86c, type: 3}
+      propertyPath: onDependenciesLoaded.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953572740558461572, guid: 0bad7d8eebe02d0458a8797c5007c86c, type: 3}
+      propertyPath: onDependenciesLoaded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2953572740140730397}
+    - target: {fileID: 2953572740558461572, guid: 0bad7d8eebe02d0458a8797c5007c86c, type: 3}
+      propertyPath: onDependenciesLoaded.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953572740558461572, guid: 0bad7d8eebe02d0458a8797c5007c86c, type: 3}
+      propertyPath: onDependenciesLoaded.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetGameState
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953572740558461572, guid: 0bad7d8eebe02d0458a8797c5007c86c, type: 3}
+      propertyPath: onDependenciesLoaded.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameStateChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953572740558461572, guid: 0bad7d8eebe02d0458a8797c5007c86c, type: 3}
+      propertyPath: onDependenciesLoaded.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: a3066127a19f6074999b514ab29973f9, type: 2}
+    - target: {fileID: 2953572740558461572, guid: 0bad7d8eebe02d0458a8797c5007c86c, type: 3}
+      propertyPath: onDependenciesLoaded.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: GameStateSO, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2953572740558461574, guid: 0bad7d8eebe02d0458a8797c5007c86c, type: 3}
       propertyPath: m_Name
       value: MenuInitializer
@@ -37021,6 +37053,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bad7d8eebe02d0458a8797c5007c86c, type: 3}
+--- !u!1 &2953572740140730396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2953572740558461574, guid: 0bad7d8eebe02d0458a8797c5007c86c, type: 3}
+  m_PrefabInstance: {fileID: 2953572740140730395}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2953572740140730397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2953572740140730396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c4bb96dc03bc28458689bfaf6a49df1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameManager: {fileID: 11400000, guid: b78ac91f9dd85a54c8acd2f3578ff23c, type: 2}
 --- !u!1001 &5353626106265128811
 PrefabInstance:
   m_ObjectHideFlags: 0
