@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
 
     public Rigidbody2D Rigidbody { get { return _rigidbody; } }
 
-    private Vector2 _movementInput;
+    [SerializeField] private Vector2 _movementInput;
 
     private void FixedUpdate()
     {

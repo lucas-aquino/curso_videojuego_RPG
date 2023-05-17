@@ -48,7 +48,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 20, y: 20, z: 20, w: 20}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -139,18 +139,216 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: panelInset_beige_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62.666664
+        width: 31
+        height: 31.333334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0651fac791fe0bc48958c6841307c7a5
+      internalID: 1645445672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelInset_beige_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 62.666664
+        width: 31
+        height: 31.333334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ee196f112352e4d97f591dd10a11a1
+      internalID: 174559644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelInset_beige_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 62.666664
+        width: 31
+        height: 31.333334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a266a12d89c09419e2caabc7beee3c
+      internalID: -239400488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelInset_beige_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31.666666
+        width: 31
+        height: 31.333334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51f1f253124eab46b25d1c490f52100
+      internalID: 820254251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelInset_beige_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31.666666
+        width: 31
+        height: 31.333334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697c5b95776a93646b95db4d01530103
+      internalID: 1875206679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelInset_beige_5
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 31.666666
+        width: 31
+        height: 31.333334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246299963dda17e4e9b1c27efff7ea1d
+      internalID: -747071088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelInset_beige_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.66666603
+        width: 31
+        height: 31.333334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8667705d811abd5429c0459fed7425b8
+      internalID: -1542858684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelInset_beige_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0.66666603
+        width: 31
+        height: 31.333334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54e37c4ebbd86c40b53dd33f93b0829
+      internalID: -542196230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelInset_beige_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0.66666603
+        width: 31
+        height: 31.333334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ec6cd4a9597e7468add9284c63d741
+      internalID: -1189390806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      panelInset_beige_0: 1645445672
+      panelInset_beige_8: -1189390806
+      panelInset_beige_2: -239400488
+      panelInset_beige_3: 820254251
+      panelInset_beige_5: -747071088
+      panelInset_beige_1: 174559644
+      panelInset_beige_6: -1542858684
+      panelInset_beige_7: -542196230
+      panelInset_beige_4: 1875206679
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
