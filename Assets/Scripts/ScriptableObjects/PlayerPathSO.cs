@@ -7,5 +7,6 @@ public class PlayerPathSO : ScriptableObject
 
     public LevelEntranceSO LevelEntrance { 
         get { return this._levelEntrance; } 
-        set { this._levelEntrance = value; } }
+        set { this._levelEntrance = value; } 
+    }
 }
